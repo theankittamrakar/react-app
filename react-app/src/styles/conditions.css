@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  background: #f5f8fd;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+/*navheader*/
+header {
+  background: #fff;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+.logo {
+  padding-left: 30px;
+  max-height: 100px;
+}
+.logo img {
+  width: 100%;
+  max-width: 200px;
+}
+.menu ul {
+  list-style: none;
+  margin-top: 15px;
+}
+.menu ul li {
+  display: inline-block;
+  padding: 20px;
+}
+.menu ul li a {
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+}
+.show-menu-btn,
+.hide-menu-btn {
+  transition: 0.4s;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+.show-menu-btn {
+  float: right;
+}
+.show-menu-btn i {
+  line-height: 100px;
+}
+.menu a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover {
+  color: #000307;
+}
+#chk {
+  position: absolute;
+  visibility: hidden;
+  z-index: -1111;
+}
+/*navheader*/
+
+.section {
+  font-size: x-large;
+  margin-top: 50px;
+  top: 20%;
+}
+
+.test {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Footer start */
+footer {
+  background-color: #2f2e3d;
+  height: auto;
+  padding-bottom: 0.5%;
+}
+.footer_nav ul {
+  list-style: none;
+  padding-top: 5%;
+  margin-left: 20%;
+}
+.footer_nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+.footer_nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.line-break {
+  max-width: 35%;
+  border-color: #fff;
+  opacity: 0.06;
+  margin-top: 2%;
+  margin-left: 32%;
+}
+.footer_logo h2 {
+  text-align: center;
+  margin-top: 2%;
+}
+.footer_logo h2 a {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.06;
+}
+.footer_bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+.bottom_copyright {
+  color: #fff;
+  font-size: 14px;
+  margin-left: -5% !important;
+}
+.bottom_social {
+  margin-right: -5%;
+  font-size: 14px;
+}
+.bottom_social ul {
+  list-style: none;
+}
+.bottom_social ul li {
+  display: inline-block;
+  padding: 20px;
+}
+.bottom_social ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+/* Footer End */

@@ -1,0 +1,122 @@
+@media screen and (max-width: 1200px) {
+  #testimonial .row .col-md-3 {
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .logo img {
+    width: 100%;
+    max-width: 150px;
+  }
+  .menu ul {
+    margin-top: 35px !important;
+  }
+  .menu ul li {
+    padding: 10px !important;
+  }
+}
+@media screen and (max-width: 800px) {
+  #testimonial .row {
+    display: initial !important;
+  }
+  #testimonial .row .col-md-3 {
+    margin-top: 5%;
+  }
+}
+@media screen and (max-width: 880px) {
+  .menu ul li {
+    padding: 10px !important;
+  }
+  .show-menu-btn,
+  .hide-menu-btn {
+    display: block !important;
+  }
+  .menu {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: #333;
+    right: -100%;
+    top: 0;
+    text-align: center;
+    padding: 80px 0;
+    line-height: normal;
+    transition: 0.7s;
+  }
+  .menu ul li {
+    display: block !important;
+  }
+  .menu a {
+    display: block;
+    padding: 20px;
+  }
+  .hide-menu-btn {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+  }
+  #chk:checked ~ .menu {
+    right: 0;
+  }
+}
+@media screen and (max-width: 700px) {
+  .about_flex {
+    display: initial !important;
+  }
+  .about_detail {
+    width: 90% !important;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+  }
+  .about_img {
+    width: 90% !important;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .overview_flex {
+    display: initial !important;
+  }
+  .overview_detail {
+    width: 90% !important;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+  }
+  .overview_img {
+    width: 90% !important;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .mental_health {
+    display: initial !important;
+  }
+  .content_1 {
+    width: 90% !important;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .content_2 {
+    width: 90% !important;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+  .footer_nav {
+    text-align: center;
+  }
+  .footer_bottom {
+    display: initial !important;
+    padding-left: 25% !important;
+  }
+  .bottom_copyright {
+    margin-top: 5% !important;
+    padding-left: 5% !important;
+    text-align: center;
+  }
+  .bottom_social {
+    margin-top: 2% !important;
+    padding-left: 2% !important;
+    text-align: center;
+  }
+}

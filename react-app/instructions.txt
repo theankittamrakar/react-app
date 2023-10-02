@@ -1,0 +1,8 @@
+for react app 
+-open terminal and locate this folder
+-use command =>  npm start 
+
+for json-api
+-open terminal and locate \data inside this folder
+-watch contact.json using port 8000
+use command => json-server --watch contact.json -p 8000

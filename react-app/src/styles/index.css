@@ -1,0 +1,296 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Nunito", sans-serif;
+  background: #f5f8fd;
+}
+.container {
+  width: 100%;
+  max-width: 1170px;
+  margin: 0 auto;
+}
+/*navheader*/
+.header {
+  background-image: url(../img/hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-height: 100%;
+  height: 100vh;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background: rgba(255, 255, 255, 0.9);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+.logo {
+  padding-left: 90px;
+  max-height: 100px;
+}
+
+.logo img {
+  width: 100%;
+  max-width: 200px;
+}
+.menu ul {
+  list-style: none;
+  margin-top: 15px;
+}
+.menu ul li {
+  display: inline-block;
+  padding: 20px;
+}
+.menu ul li a {
+  color: #000;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-weight: 600;
+}
+.show-menu-btn,
+.hide-menu-btn {
+  transition: 0.4s;
+  font-size: 30px;
+  cursor: pointer;
+  display: none;
+}
+.show-menu-btn {
+  float: right;
+}
+.show-menu-btn i {
+  line-height: 100px;
+}
+.menu a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover {
+  color: #000307;
+}
+#chk {
+  position: absolute;
+  visibility: hidden;
+  z-index: -1111;
+}
+/*navheader*/
+
+/* About us Start */
+.about_us h2 {
+  text-align: center;
+  color: #98499c;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 20px 0px;
+}
+.about_flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+.about_detail {
+  width: 50%;
+  margin-right: 3%;
+  margin-top: 2%;
+}
+.about_detail p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  text-align: justify;
+}
+.about_img {
+  width: 50%;
+}
+.about_img img {
+  width: 100%;
+  max-width: 800px;
+}
+
+/* About us End */
+
+/* About us Start */
+.overview h2 {
+  text-align: center;
+  color: #98499c;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 30px 0px;
+}
+.overview_flex {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5%;
+}
+.overview_detail {
+  width: 50%;
+  margin-left: 3%;
+  margin-top: 2%;
+}
+.overview_detail p {
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 24px;
+  text-align: justify;
+}
+.overview_img {
+  width: 50%;
+}
+.overview_img img {
+  width: 100%;
+  max-width: 800px;
+}
+
+/* About us End */
+
+/* Mental Health Start  */
+
+/* Content 1 Start */
+#mental_health h2 {
+  text-align: center;
+  color: #98499c;
+  font-size: 30px;
+  font-weight: 400;
+  margin: 30px 0px;
+}
+.mental_health {
+  display: flex;
+  flex-wrap: wrap;
+}
+.content_1 {
+  width: 50%;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 5% 0% 0% 5%;
+  padding-bottom: 3%;
+  margin-bottom: 5%;
+  transition: 0.4s;
+}
+.content_1:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  border-radius: 5%;
+}
+.content_1 h2 {
+  text-align: center;
+  color: #000;
+}
+.content_1 p {
+  text-align: justify;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.content_1 ol {
+  margin-left: 7%;
+  margin-right: 5%;
+}
+.content_1 ol li {
+  padding: 5px;
+}
+/* Content 1 End */
+
+/* content 2 Start */
+.content_2 {
+  width: 50%;
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0% 5% 5% 0%;
+  padding-bottom: 3%;
+  margin-bottom: 5%;
+  transition: 0.4s;
+}
+.content_2:hover {
+  transform: scale(1.02);
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+  border-radius: 5%;
+}
+.content_2 h2 {
+  text-align: center;
+  color: #000;
+}
+.content_2 p {
+  text-align: justify;
+  margin-left: 3%;
+  margin-right: 3%;
+}
+.content_2 ol {
+  margin-left: 7%;
+  margin-right: 5%;
+}
+.content_2 ol li {
+  padding: 15px;
+  text-align: justify;
+}
+/* Content 2 End */
+
+/* Mental Health End  */
+
+/* Footer start */
+footer {
+  background-color: #2f2e3d;
+  height: auto;
+  padding-bottom: 0.5%;
+}
+.footer_nav ul {
+  list-style: none;
+  padding-top: 5%;
+  margin-left: 20%;
+}
+.footer_nav ul li {
+  display: inline-block;
+  padding: 20px;
+}
+.footer_nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.line-break {
+  max-width: 35%;
+  border-color: #fff;
+  opacity: 0.06;
+  margin-top: 2%;
+  margin-left: 32%;
+}
+.footer_logo h2 {
+  text-align: center;
+  margin-top: 2%;
+}
+.footer_logo h2 a {
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  opacity: 0.06;
+}
+.footer_bottom {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10%;
+}
+.bottom_copyright {
+  color: #fff;
+  font-size: 14px;
+  margin-left: -5% !important;
+}
+.bottom_social {
+  margin-right: -5%;
+  font-size: 14px;
+}
+.bottom_social ul {
+  list-style: none;
+}
+.bottom_social ul li {
+  display: inline-block;
+  padding: 20px;
+}
+.bottom_social ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+/* Footer End */
